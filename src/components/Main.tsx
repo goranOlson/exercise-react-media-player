@@ -1,4 +1,5 @@
 import './Main.css'
+import PlayList from './PlayList';
 import Player from './Player';
 
 
@@ -6,7 +7,7 @@ function Main() : JSX.Element {
 
     return (
         <main className='page-main'>
-            {/* <section>Left+</section> */}
+            <PlayList />
             <Player />
         </main>
     

@@ -1,0 +1,62 @@
+.box.play-list-item {
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    grid-template-rows: auto;
+    column-gap: 12px;
+    width: 100%;
+    padding-block: 8px;
+    
+}
+
+
+.play-list-item .image {
+    width: 68px;
+    height: fit-content;
+     /* background-color: #ddd; */
+}
+
+.play-list-item .melody-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 4px;
+
+    max-width: 100%;
+    width: fit-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    white-space: nowrap;
+
+    font-size: 15px;
+}
+
+
+.play-list-item .melody-info .txt {
+    font-size: 15px;
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.play-list-item .melody-info .txt.artist {
+    color: var(--txt-color-dim);
+    font-size: 14px;
+}
+
+.play-list-item .melody-info .txt-melody {
+
+
+}
+
+
+.play-list-item .icon-play {
+    color: var(--icon-color-dim);
+    font-size: 26px;
+}
+
+.play-list-item .icon-play.active {
+    color: var(--txt-color);
+}
