@@ -1,8 +1,24 @@
+:root {
+    --txt-color: #fff;
+    --txt-color-dim: #fff9;
+    --background-main: #15263c;
+}
+
+
 * {
     margin: 0;
     box-sizing: border-box;
 
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    color: #fff;
+                font-family: Ubuntu;
+    font-size: 16px;
+    color: var(--txt-color);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-inline: 1rem;
 }

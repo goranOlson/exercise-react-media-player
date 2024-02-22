@@ -1,0 +1,6 @@
+.box.player {
+    flex-direction: column;
+    width: 100vw;
+    padding-inline: 0;
+    background-color: var(--background-main);
+}
