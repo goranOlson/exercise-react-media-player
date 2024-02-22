@@ -1,7 +1,9 @@
-.box.player {
+.box.play-list {
     flex-direction: column;
     order: 2;
     width: 100vw;
     padding-inline: 0;
     background-color: var(--background-main);
+        /* background-color: #444; */
+
 }
