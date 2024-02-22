@@ -1,0 +1,8 @@
+.music-player {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 40px 1fr;
+    height: 100vh;
+    
+    background-color: #000000;    
+}

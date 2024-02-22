@@ -1,0 +1,10 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    color: #fff;
+    background-color: #2c2f3d;
+    /* background-color: black; */
+}
