@@ -1,0 +1,43 @@
+.box.controller {
+    justify-content: space-between;
+    height: 90px;
+    padding-bottom: 1rem;
+}
+
+.controller .play-controll {
+    padding: 0;
+}
+
+.controller .play-controll span {
+    font-size: 36px;
+}
+
+
+.controller .play-controll .btn-play,
+.controller .play-controll .btn-paus {
+    margin: 16px;
+    background: #fff;
+    border-radius: 50%;
+    color: var(--background-main);
+    padding: 4px;
+    font-size: 50px;
+    display: none;
+}
+
+.controller .play-controll .btn-play.active,
+.controller .play-controll .btn-paus.active {
+    display: block;
+}
+
+.controller .btn-repeat,
+.controller .btn-random {
+    color: var(--txt-color-dim);
+}
+
+.controller .btn-repeat.active,
+.controller .btn-random.active {
+    color: var(--txt-color);
+    color: #f9f97a;
+    font-weight: bold;
+}
+

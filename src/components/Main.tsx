@@ -1,14 +1,13 @@
 import './Main.css'
-import PlayerImageBox from './PlayerImageBox';
-
+import Player from './Player';
 
 
 function Main() : JSX.Element {
 
     return (
         <main className='page-main'>
-            <section>Left+</section>
-            <PlayerImageBox />
+            {/* <section>Left+</section> */}
+            <Player />
         </main>
     
     )

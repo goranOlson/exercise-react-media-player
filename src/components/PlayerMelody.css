@@ -1,0 +1,14 @@
+.box.player-melody {
+    flex-direction: column;
+    row-gap: 2px;
+    height: 60px;
+}
+
+.box.player-melody .label-melody {
+    font-weight: bold;
+}
+
+.box.player-melody .label-artist {
+    color: var(--txt-color-dim);
+    font-size: 16px;
+}
