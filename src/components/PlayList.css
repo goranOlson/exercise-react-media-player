@@ -1,9 +1,28 @@
 .box.play-list {
     flex-direction: column;
     order: 2;
-    width: 100vw;
     padding-inline: 0;
     background-color: var(--background-main);
         /* background-color: #444; */
+    order: 2;
+}
 
+.box.play-list header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    background-color: #2c2f3d;
+}
+
+
+@media screen and (min-width: 640px) {
+    .box.play-list {
+        order: 0;
+    }
+
+    .box.play-list header {
+        display: none;
+    }
 }

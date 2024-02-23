@@ -1,6 +1,6 @@
 .box.play-list-item {
     display: grid;
-    grid-template-columns: max-content auto max-content;
+    grid-template-columns: max-content 1fr max-content;
     grid-template-rows: auto;
     column-gap: 12px;
     width: 100%;
@@ -8,6 +8,14 @@
     
 }
 
+.box.play-list-item:hover {
+    cursor: pointer;
+    background-color: #233e62;
+}
+
+.box.play-list-item.active {
+    background-color: #233e62;
+}
 
 .play-list-item .image {
     width: 68px;

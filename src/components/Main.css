@@ -2,6 +2,20 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    align-items: start;
+    /* width: 100%;
+    max-width: 400px; */
+
+}
+
+@media screen and (min-width: 640px) {
+    .page-main {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 2px;
+
+    }
 }
 
 
