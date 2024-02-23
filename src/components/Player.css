@@ -1,7 +1,14 @@
 .box.player {
     flex-direction: column;
-    order: 2;
-    width: 100vw;
+    order: 1;
+    width: 100%;
     padding-inline: 0;
     background-color: var(--background-main);
+    
+}
+
+@media screen and (min-width: 640px) {
+    .box.player {
+        order: 0;
+    }
 }
