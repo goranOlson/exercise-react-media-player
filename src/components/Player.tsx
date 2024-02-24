@@ -1,18 +1,16 @@
 import PlayerImageBox from "./PlayerImageBox";
 import PlayerMelody from "./PlayerMelody";
-
+import PlayerProgress from "./PlayerProgress";
+import PlayerControl from "./PlayerControl";
 import './Player.css'
-import Progress from "./Progress";
-import PlayControll from "./PlayControll";
 
 function Player(): JSX.Element {
-
     return (
         <section className="box player">
             <PlayerImageBox />
             <PlayerMelody />
-            <Progress />
-            <PlayControll />
+            <PlayerProgress />
+            <PlayerControl />
         </section>
     )
 }
