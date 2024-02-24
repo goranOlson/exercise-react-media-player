@@ -1,7 +1,6 @@
-import './Progress.css'
+import './PlayerProgress.css'
 
 function Progress(): JSX.Element {
-
     return (
         <div className="box progress-box">
             <div className='progressor'>

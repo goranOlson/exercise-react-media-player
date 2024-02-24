@@ -1,7 +1,6 @@
-import './PlayControll.css'
+import './PlayerControl.css'
 
 function PlayControll(): JSX.Element {
-
     return (
         <div className='box controller'>
             <span className="material-symbols-outlined btn-repeat">repeat</span>
@@ -13,7 +12,6 @@ function PlayControll(): JSX.Element {
             </div>
             <span className="material-symbols-outlined btn-random">shuffle</span>
         </div>
-
     );
 }
 

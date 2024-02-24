@@ -1,12 +1,10 @@
 import { IListItem } from '../interfaces';
+import PlayListItems from './PlayListItem';
 import './PlayList.css'
-import PlayListItem from './PlayListItem';
-
-
 
 function PlayList(): JSX.Element {
-
-    const list : IListItem[] = [
+    // Create playlist
+    const playList : IListItem[] = [
         {
             id: 1,
             melody: "Boys, Girls, toys & Words",
@@ -32,25 +30,16 @@ function PlayList(): JSX.Element {
             image: "Old_News_-_Hot_Fiction.jpg"
         }
     ];
-
+    // console.log('playList => ', playList);
 
     return (
         <section className='box play-list'>
             <header className='box'>
                 <h2>Playlist</h2>
             </header>
-            {   
-                list.map( (item: IListItem) => (
-                    <PlayListItem item={item} />
-                    
-                ))
-
-                
-            }
+            <PlayListItems playList={playList} />
         </section>
-
     );
-
 }
 
 export default PlayList;
